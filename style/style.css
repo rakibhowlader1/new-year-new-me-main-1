@@ -56,13 +56,13 @@
 /* banner part end */
 
 /* my failures part start */
-.failures_content {
+.failures-content {
     display: flex;
     align-items: center;
     gap: 87px;
 }
 
-.failures_content .failures_col h3 {
+.failures-content .failures-cel h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -70,7 +70,7 @@
     padding-right: 50px;
 }
 
-.failures_content .failures_col p {
+.failures-content .failures-cel p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -78,11 +78,11 @@
     padding-top: 25px;
 }
 
-.failures_content .failures_col ul {
+.failures-content .failures-cel ul {
     padding-top: 15px;
 }
 
-.failures_content .failures_col ul li {
+.failures-content .failures-cel ul li {
     list-style: none;
     font-weight: 400;
     font-size: 16px;
@@ -90,7 +90,7 @@
     color: #444343;
 }
 
-.failures_content .failures_col ul li i {
+.failures-content .failures-cel ul li i {
     color: green;
     padding-right: 20px;
 
@@ -104,7 +104,7 @@
     padding-bottom: 130px;
 }
 
-.plans_head h3 {
+.plans-head h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -113,13 +113,13 @@
     padding-bottom: 55px;
 }
 
-.plans_row {
+.plans-row {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-.plans_col h3 {
+.plans-cel h3 {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -128,7 +128,7 @@
     padding-top: 20px;
 }
 
-.plans_col p {
+.plans-cel p {
     font-weight: 500;
     font-size: 25px;
     line-height: 29px;
@@ -139,22 +139,22 @@
 /* plans part end */
 
 /* callnow part start */
-#call_now {
+#call-now {
     padding-bottom: 130px;
 }
 
-.callnow_row {
+.callnow-row {
     background: url(../images/watch.png);
     height: 300px;
 }
 
-.call_now_col {
+.call-now_cel {
     background: url(../images/gradient1.png);
     height: 100%;
     padding-left: 64px;
 }
 
-.call_now_col h3 {
+.call-now-cel h3 {
     width: 460px;
     font-weight: 700;
     font-size: 40px;
@@ -163,7 +163,7 @@
     padding-top: 59px;
 }
 
-.call_now_col button {
+.call-now-cel button {
     height: 64px;
     background: #fff;
     color: #F15B22;
