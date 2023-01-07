@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner part start */
+#banner {
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+}
+
+.banner-text {
+    text-align: right;
+    padding-top: 140px;
+    padding-left: 500px;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-left: 150px;
+}
+
+.banner-text button {
+    background: #F15B22;
+    height: 64px;
+    padding: 0 35px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* banner part end */
+
+/* my failures part start */
+.failures_content {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.failures_content .failures_col h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding-right: 50px;
+}
+
+.failures_content .failures_col p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-top: 25px;
+}
+
+.failures_content .failures_col ul {
+    padding-top: 15px;
+}
+
+.failures_content .failures_col ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.failures_content .failures_col ul li i {
+    color: green;
+    padding-right: 20px;
+
+}
+
+/* my failures part end */
+
+/* plans part start */
+#plans {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.plans_head h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.plans_row {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plans_col h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    padding-top: 20px;
+}
+
+.plans_col p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* plans part end */
+
+/* callnow part start */
+#call_now {
+    padding-bottom: 130px;
+}
+
+.callnow_row {
+    background: url(../images/watch.png);
+    height: 300px;
+}
+
+.call_now_col {
+    background: url(../images/gradient1.png);
+    height: 100%;
+    padding-left: 64px;
+}
+
+.call_now_col h3 {
+    width: 460px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 59px;
+}
+
+.call_now_col button {
+    height: 64px;
+    background: #fff;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    padding: 0 35px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+/* callnow part end */
+
+/* footer part start */
+#footer {
+    background: #1E1E1E;
+    padding: 130px 0;
+}
+
+.footer_row {
+    display: flex;
+    gap: 250px;
+}
+
+.footer_left {
+    width: 485px;
+}
+
+.footer_left h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer_left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.footer_left p a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social_link ul {
+    display: flex;
+}
+
+.social_link ul li {
+    list-style: none;
+    margin-right: 17px;
+    padding-top: 32px;
+}
+
+.footer_right h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer_right form input {
+    height: 64px;
+    width: 300px;
+    background: transparent;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.footer_right form button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+    height: 64px;
+    padding: 0 35px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+/* footer part end */
